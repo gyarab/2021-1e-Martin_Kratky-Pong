@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="531.0" prefWidth="696.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.stv.canvasdemofx.MainForm">
+   <children>
+      <Canvas fx:id="canvas" height="600.0" layoutX="14.0" layoutY="15.0" onKeyTyped="#onKeyPressed"  width="1000.0" AnchorPane.bottomAnchor="121.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="14.0" />
+   </children>
+
+</AnchorPane>
