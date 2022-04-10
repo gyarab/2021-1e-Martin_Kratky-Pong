@@ -244,10 +244,12 @@ public class MainForm implements Initializable {
    * otáčí pohyb míče pohed dojde ke kolizi s pločinou
    * */
   public void bouncePlatform() {
-    if (ballX == 16 || ballX == 983) {
+    if (ballX == 16) {
       if (ballY > platformone && ballY < platformone + 80) {
         ballbouncepalatforms = ballbouncepalatforms * -1;
-      } else if (ballY > platformtwo && ballY < platformtwo + 80) {
+      }
+    } else if (ballX == 983){
+      if (ballY > platformtwo && ballY < platformtwo + 80) {
         ballbouncepalatforms = ballbouncepalatforms * -1;
       }
     }

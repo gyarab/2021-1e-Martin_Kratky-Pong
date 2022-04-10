@@ -9,7 +9,7 @@
    <children>
       <Canvas fx:id="canvas" height="600.0" onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyReleased" width="1000.0" />
       <Text layoutX="14.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1 " wrappingWidth="47.771484375" />
-      <Text fx:id="scoreboard" layoutX="488.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0 - 0" wrappingWidth="24.310546875" />
+      <Text fx:id="scoreboard" layoutX="446.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0 - 0" wrappingWidth="56.771484375" />
       <Text layoutX="933.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 2" wrappingWidth="56.77148437500003" />
       <Button layoutY="600.0" mnemonicParsing="false" onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyReleased" prefHeight="35.0" prefWidth="1000.0" />
    </children>
