@@ -103,7 +103,9 @@ public class MainForm implements Initializable {
         uptwo = false;
       }
 
-    } else if (downtwo == true) {
+    }
+
+    if (downtwo == true) {
       if (519 > platformtwo){
         platformtwo += 1.0;
       } else {
@@ -111,7 +113,9 @@ public class MainForm implements Initializable {
         downtwo = false;
       }
 
-    } else if (upone == true) {
+    }
+
+    if (upone == true) {
       if (platformone > 31){
         platformone -= 1.0;
       } else {
@@ -119,7 +123,9 @@ public class MainForm implements Initializable {
         upone = false;
       }
 
-    }else if (downone == true) {
+    }
+
+    if (downone == true) {
       if (519 > platformone){
         platformone += 1.0;
       } else {
